@@ -57,7 +57,7 @@ Consult the ExchangeRate-API documentation for further information. Make sure yo
     * Input: 
     * Output: 
 
-  3.[] The conversion method will be dynamic, pulling conversion rates from another object filled with property value keys that hold conversion rates alongside various currencies, before determining their final output. 
+  3.[X] The conversion method will be dynamic, pulling conversion rates from another object filled with property value keys that hold conversion rates alongside various currencies, before determining their final output. 
     * Input: 
     * Output: 
 
