@@ -1,0 +1,43 @@
+<html lang="en-US">
+<head>
+  <title>Currency Exchanger</title>
+</head>
+<body>
+  <div class='container'>
+    <div class='showErrors'></div>
+    <div class='display-2'>
+      Currency Exchanger 
+    </div>
+    <div class="row justify-content-center">
+      <div class='col-3'>
+        <label for="initial_currency">Select your initial currency:</label>
+        <br>
+        <select class="form-control" id="initial_currency">
+          <option value="USD">USD</option>
+        </select>
+      </div>
+      <div class='col-3'>
+        <label for="color">Select a currency to exchange for:</label>
+        <br>
+        <select class="form-control" id="input_currency">
+          <option value="EUR">EUR</option>
+        </select>
+        <br>
+        <br>
+      </div>
+      <div class='col-3'>
+        <label for="manufacturer">Enter the amount to exchange:</label>
+        <br>
+        <input id="input_amount" class='form-control' type="number">
+      </div>
+    </div>
+    <div class='row justify-content-center'>
+      <button class="btn-success" id="exchange_submit">Exchange!</button>
+    </div>
+    <div class='row'>
+        <div id='exchange_results'>
+        </div>
+  </div>
+  </div>
+</body>
+</html>
