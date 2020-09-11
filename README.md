@@ -49,7 +49,23 @@ Consult the ExchangeRate-API documentation for further information. Make sure yo
 
 ## Business Specs
 
-  1.[] Insert spec here
+  1.[] Given a dollar amount to be converted and a selected currency to exchange it for, program will create an object with the imput derived from the user
+    * Input: 
+    * Output: 
+
+  2.[] The object containing the users's inquiry will convert the US currency via an object method to determine the new value in the selected currency 
+    * Input: 
+    * Output: 
+
+  3.[] The conversion method will be dynamic, pulling conversion rates from another object filled with property value keys that hold conversion rates alongside various currencies, before determining their final output. 
+    * Input: 
+    * Output: 
+
+  1.[] The conversion object will fill with data pulled and parsed from an API call.
+    * Input: 
+    * Output: 
+
+  1.[] The API call will display error messages in the eventuality that an error will occur.
     * Input: 
     * Output: 
 
