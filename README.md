@@ -49,25 +49,26 @@ Consult the ExchangeRate-API documentation for further information. Make sure yo
 
 ## Business Specs
 
-  1.[X] Given a dollar amount to be converted and a selected currency to exchange it for, program will create an object with the imput derived from the user
+  1.[X] Given a dollar amount to be converted and a selected currency to exchange it for, program will create an ExchangeProfile object with the imput derived from the user
+    * Input: inputCurrency = "USD", inputAmount = 10
+    * Output: exchange1.inputAmount = 10
+
+  2.[X] The ExchangeProfile object containing the users's input data will convert the US currency via an object method to determine the new value in the selected currency 
+    * Input: inputCurrency = "EUR", inputAmount = 10
+    * Output: exchange2.outputAmount = 8.449
+
+  3.[X] The created object's conversion rates will be dynamic, pulling rates from another object that is already filled with property value keys of conversion rates and various currencies. 
+    * Input: inputCurrency = "EUR", inputAmount = 10
+    * Input: rate3 = {conversion_rates:{USD:1,EUR:0.8449}}
+    * Output: exchange3.EUR = rate3.conversion_rates.EUR = 0.8449
+
+  4.[] The conversion object will fill with data pulled and parsed from an API call.
     * Input: 
     * Output: 
 
-  2.[X] The object containing the users's inquiry will convert the US currency via an object method to determine the new value in the selected currency 
-    * Input: 
-    * Output: 
-
-  3.[X] The conversion method will be dynamic, pulling conversion rates from another object filled with property value keys that hold conversion rates alongside various currencies, before determining their final output. 
-    * Input: 
-    * Output: 
-
-  1.[] The conversion object will fill with data pulled and parsed from an API call.
-    * Input: 
-    * Output: 
-
-  1.[] The API call will display error messages in the eventuality that an error will occur.
-    * Input: 
-    * Output: 
+  5.[] The API call will display error messages in the eventuality that an error will occur.
+    * Input: inputCurrency = "666"
+    * Output: Error
 
 ## UI Specs
 
