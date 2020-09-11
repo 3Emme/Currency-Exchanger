@@ -15,7 +15,7 @@ $(document).ready(function() {
       // clearFields();
       $('#exchange_results').html("");
       // let exchange = new ExchangeProfile(inputCurrency)
-      ExchangeRateService.getRates(inputCurrency)
+      ExchangeRateService.getRates()
       .then(function(rateResponse) {
         exchange1 = new ExchangeProfile(inputCurrency,inputAmount,rateResponse);
       });
