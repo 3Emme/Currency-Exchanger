@@ -53,7 +53,7 @@ Consult the ExchangeRate-API documentation for further information. Make sure yo
     * Input: 
     * Output: 
 
-  2.[] The object containing the users's inquiry will convert the US currency via an object method to determine the new value in the selected currency 
+  2.[X] The object containing the users's inquiry will convert the US currency via an object method to determine the new value in the selected currency 
     * Input: 
     * Output: 
 
