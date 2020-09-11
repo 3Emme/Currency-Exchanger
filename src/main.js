@@ -2,8 +2,8 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-import { ExchangeProfile } from './exchange.js';
-import ExchangeRateService from './exchangeRateService.js';
+import { ExchangeProfile } from './js/exchange.js';
+import ExchangeRateService from './js/exchangeRateService.js';
 
 $(document).ready(function() {
 
