@@ -49,7 +49,7 @@ Consult the ExchangeRate-API documentation for further information. Make sure yo
 
 ## Business Specs
 
-  1.[] Given a dollar amount to be converted and a selected currency to exchange it for, program will create an object with the imput derived from the user
+  1.[X] Given a dollar amount to be converted and a selected currency to exchange it for, program will create an object with the imput derived from the user
     * Input: 
     * Output: 
 
