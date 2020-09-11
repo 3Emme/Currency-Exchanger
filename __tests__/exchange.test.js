@@ -14,7 +14,7 @@ describe('ExchangeProfile', () => {
     expect(exchange2.outputAmount).toEqual(8.449)
   });
 
-  test('Test 3 should create an ExchangeRateObject object, which will determine the currency values of the ExchangeProfile', () =>{    
+  test('Test 3 should utilize an outside object to determine the currency values of the ExchangeProfile', () =>{    
     let rate3 = {conversion_rates:{USD:1,EUR:0.8449}};
     let exchange3 = new ExchangeProfile("EUR",10,rate3);
     expect(exchange3.EUR).toEqual(rate3.conversion_rates.EUR)
