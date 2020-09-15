@@ -1,4 +1,4 @@
-import { ExchangeProfile, ExchangeRateObject } from '../src/js/exchange.js';
+import { ExchangeProfile } from '../src/js/exchange.js';
 
 describe('ExchangeProfile', () => {
 
