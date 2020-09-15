@@ -36,16 +36,16 @@ Consult the ExchangeRate-API documentation for further information. Make sure yo
 
 ## Project Objectives:
 
-  * Does the application correctly make an API call? **[TBD]**
-  * Does the application correctly parse data from the API response? **[TBD]**
-  * Does the application handle errors when the API call doesn't return a 200 OK status as well as return a message if the API returns no results? **[TBD]**
-  * Did you follow all setup instructions, including storing your API key? **[TBD]**
-  * Does the app separate logic into different JavaScript files and use a static method? **[TBD]**
-  * Does the application correctly use webpack? **[TBD]**
-  * Code and Git documentation follow best practices (setup instructions in README, .gitignore file excluding unnecessary content from repo, detailed well-formatted commit messages, etc.) **[TBD]**
-  * Does the project demonstrate concepts covered this week? If prompted, are you able to discuss the flow of your code and the concepts behind it with an instructor using correct terminology? **[TBD]**
-  * Is the app in a presentable, portfolio-quality state? **[TBD]**
-  * Is required functionality in place by the Friday deadline? **[TBD]**
+  * Does the application correctly make an API call? **[Complete]**
+  * Does the application correctly parse data from the API response? **[Complete]**
+  * Does the application handle errors when the API call doesn't return a 200 OK status as well as return a message if the API returns no results? **[Complete]**
+  * Did you follow all setup instructions, including storing your API key? **[Complete]**
+  * Does the app separate logic into different JavaScript files and use a static method? **[Complete]**
+  * Does the application correctly use webpack? **[Complete]**
+  * Code and Git documentation follow best practices (setup instructions in README, .gitignore file excluding unnecessary content from repo, detailed well-formatted commit messages, etc.) **[Complete]**
+  * Does the project demonstrate concepts covered this week? If prompted, are you able to discuss the flow of your code and the concepts behind it with an instructor using correct terminology? **[Complete]**
+  * Is the app in a presentable, portfolio-quality state? **[Complete]**
+  * Is required functionality in place by the Friday deadline? **[Complete]**
 
 ## Business Specs
 
@@ -66,7 +66,7 @@ Consult the ExchangeRate-API documentation for further information. Make sure yo
     * Input: 
     * Output: 
 
-  5.[] The API call will display error messages in the eventuality that an error will occur.
+  5.[X] The API call will display error messages in the eventuality that an error will occur.
     * Input: inputCurrency = "666"
     * Output: Error
 
@@ -74,12 +74,16 @@ Consult the ExchangeRate-API documentation for further information. Make sure yo
 
 ## Setup/Installation Requirements
 
+* _go to https://www.exchangerate-api.com/ and apply for a free API key using your email address_
 * _open terminal_
 * _type "cd desktop", then press enter_
 * _type "git clone https://github.com/3emme/CurrencyExchanger", then press enter_
 * _locate and open folder on desktop named "CurrencyExchanger" with your console of choice_
-* _in console, run $npm install
-* _in console, run $npm run build
+* _in console, create a .env file with $touch .env_
+* _open .env file and type in your API key like so: API_KEY=ENTERYOURKEYHERE_
+* _in console, run $npm install_
+* _in console, run $npm run build_
+* _in console, run $npm run start_
 
 
 ## Support and contact details
