@@ -5,8 +5,7 @@ export default class ExchangeRateService {
       if (!rateResponse.ok) {
         throw Error(rateResponse.statusText);
       }
-      console.log(`rateResponse: ${rateResponse}`)
-      return rateResponse;
+      return rateResponse.json();
     })
     .catch(function(error) {
       return error;
