@@ -1,0 +1,29 @@
+.inverted{
+  font-family: 'Fredoka One', cursive;
+  background-color: black;
+  color:whitesmoke;
+}
+
+.jumbotron{
+  display:flex;
+  align-items:center;
+}
+
+.medium_font{
+  font-size:25px;
+}
+
+#exchange_submit{
+  margin-top:100px;
+  margin-bottom:100px;
+}
+
+#exchange_results{
+  align-items:center;
+  width: auto;
+  padding: 10px;
+}
+
+#head_img{
+  pointer-events: none
+}
