@@ -63,8 +63,21 @@ Consult the ExchangeRate-API documentation for further information. Make sure yo
     * Output: exchange3.EUR = rate3.conversion_rates.EUR = 0.8449
 
   4.[X] The conversion object will fill with data pulled and parsed from an API call.
-    * Input: 
-    * Output: 
+    * Input: *click submit button*
+    * Output: rateResponse = {
+      "result": "success",
+    "documentation": "https://www.exchangerate-api.com/docs",
+    "terms_of_use": "https://www.exchangerate-api.com/terms",
+    "time_last_update_unix": 1600128247,
+    "time_last_update_utc": "Tue, 15 Sep 2020 00:04:07 +0000",
+    "time_next_update_unix": 1600214767,
+    "time_next_update_utc": "Wed, 16 Sep 2020 00:06:07 +0000",
+    "base_code": "USD",
+    "conversion_rates": {
+        "USD": 1,
+        "AED": 3.6721,
+        etc, etc, etc
+    }
 
   5.[X] The API call will display error messages in the eventuality that an error will occur.
     * Input: inputCurrency = "666"
