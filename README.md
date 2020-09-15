@@ -62,7 +62,7 @@ Consult the ExchangeRate-API documentation for further information. Make sure yo
     * Input: rate3 = {conversion_rates:{USD:1,EUR:0.8449}}
     * Output: exchange3.EUR = rate3.conversion_rates.EUR = 0.8449
 
-  4.[] The conversion object will fill with data pulled and parsed from an API call.
+  4.[X] The conversion object will fill with data pulled and parsed from an API call.
     * Input: 
     * Output: 
 
