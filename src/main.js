@@ -12,14 +12,12 @@ $(document).ready(function() {
       let exchange1;
       const inputCurrency = $('#input_currency').val();
       const inputAmount = $('#input_amount').val();
-      console.log(`inputCurrency: ${inputCurrency}`);
-      console.log(`inputAmount: ${inputAmount}`);
-      $('#exchange_results').html("");
+      $('#exchange_results').html("Exchange Amount: ");
       $('#input_amount').val("");
       ExchangeRateService.getRates()
       .then(function(rateResponse) {
         exchange1 = new ExchangeProfile(inputCurrency,inputAmount,rateResponse);
-        $('#exchange_results').append(exchange1.exchangeResults(inputCurrency,inputAmount));
+        $('#exchange_results').append(`${exchange1.exchangeResults(inputCurrency,inputAmount)} ${inputCurrency}`);
       });
     })
   });
